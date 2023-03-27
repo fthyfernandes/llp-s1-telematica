@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+#define texto "Entrada e Saida de Dados"
+
+int main(){
+	
+	
+	printf("%s.\n", texto);
+	
+	int idade = 0;
+	float altura = 0;
+	char nome[50]= "";
+	
+	printf("Digite a sua idade:\n");
+	scanf("%d.\n", &idade);
+	printf("Minha idade: %d.\n\n", idade);
+	
+	printf("Digite a sua altura:\n");
+	scanf("%f.\n", &altura);
+	printf("Minha altura: %.2f.\n\n", altura);
+	
+	printf("Digite o seu nome e sobrenome:\n");
+	scanf("%s.\n", &nome);
+	printf("Meu nome: %s.\n\n", nome);
+}
