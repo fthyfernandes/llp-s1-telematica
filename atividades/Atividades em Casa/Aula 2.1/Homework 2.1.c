@@ -9,5 +9,5 @@ int main(){
 	printf("valor real com apenas duas casas decimais após a vírgula: %.2f.\n",3.1456877);
 	printf("Quero demonstrar um dado de texto ou um caractere: %c.\n", 'c');
 	printf("Quero demonstrar um dado de texto com vários caracteres: %s.\n", "Pseudonimo");
-	
+	printf("Tá bom");
 }
