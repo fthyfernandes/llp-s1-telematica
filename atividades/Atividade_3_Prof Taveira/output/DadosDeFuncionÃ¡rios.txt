@@ -1,0 +1,12 @@
+--------------- Dados informados da pessoa 1 ---------------
+Nome: MARIA A
+Idade: 1 anos.
+Salário: 1,00
+--------------- Dados informados da pessoa 2 ---------------
+Nome: DOIDO B
+Idade: 2 anos.
+Salário: 2,00
+--------------- Dados informados da pessoa 3 ---------------
+Nome: CALANGO C
+Idade: 3 anos.
+Salário: 3,00

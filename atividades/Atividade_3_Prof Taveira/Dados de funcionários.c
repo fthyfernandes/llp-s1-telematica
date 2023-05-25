@@ -1,11 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-#define N 100
-
 
 struct dados_funcionarios{
-	char nome[N];
+	char nome[100];
 	unsigned int idade;
 	float salario;
 };
@@ -23,20 +21,21 @@ int main (){
 		printf("--------------- Dados da pessoa %d ---------------\n", d+1 );
 		printf("Digte o nome:\n");
 		scanf("%100[^\n]s", dados[d].nome);
-		fflush(stdin);
+		getchar();
 		
 		printf("Digite a idade:\n");
 		scanf("%d", &dados[d].idade);
-		fflush(stdin);
+		getchar();
 		
 		printf("Digite o salário:\n");
 		scanf("%f", &dados[d].salario);
-		fflush(stdin);
+		getchar();
 	}
 	system("cls");
 	
 	
 	FILE *archive;
+	/* Defina o nome do arquivo a ser gravado os dados, ou além de dar nome ao arquiivo, defina o diretório a ser salvo. */
 	archive =fopen("DadosDeFuncionários.txt", "w");
 
 	 if (archive == NULL) {
