@@ -22,7 +22,7 @@ int main (){
 		
 		printf("--------------- Dados da pessoa %d ---------------\n", d+1 );
 		printf("Digte o nome:\n");
-		scanf("%N[^\n]s", dados[d].nome);
+		scanf("%100[^\n]s", dados[d].nome);
 		fflush(stdin);
 		
 		printf("Digite a idade:\n");
