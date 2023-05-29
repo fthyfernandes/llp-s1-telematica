@@ -18,5 +18,4 @@ if(a>0){
     printf("Numero invalido.");
     return 100;
 }
-
 }
