@@ -11,7 +11,7 @@ scanf("%d", &a);
 
 if(a>0){
 
-    double resultado = log10(a);
+    resultado = log10(a);
     printf("O logaritmo de base 10 de %d e %.2lf\n", a, resultado);
     return 0;
 } else{
