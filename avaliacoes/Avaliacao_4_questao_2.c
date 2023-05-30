@@ -20,4 +20,10 @@ media= (1*a+1*b+2*c)/(1+1+2);
 
 printf("A media do aluno e:\n %.2f", media);
 
+if(media>=60){
+    printf("\nAprovado");
+} else{
+    printf("\nReprovado");
+}
+
 }
