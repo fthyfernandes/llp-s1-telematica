@@ -12,7 +12,7 @@ scanf("%d", &a);
 if(a>0){
 
     resultado = log10(a);
-    printf("O logaritmo de base 10 de %d e %.2lf\n", a, resultado);
+    printf("O logaritmo na base 10 de %d vale %.2lf\n", a, resultado);
     return 0;
 } else{
     printf("Numero invalido.");
