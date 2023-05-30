@@ -3,18 +3,17 @@
 int main(){
 
 /* As notas 'a' e 'b' tem peso 1, a nota 'c' tem peso 2. A nota vai de 0 a 100.*/
-int a, b, c;
-float media;
+float a, b, c, media;
 
 
 printf("Digite a nota da primeira prova:\n");
-scanf("%d", &a);
+scanf("%f", &a);
 
 printf("Digite a nota da segunda prova:\n");
-scanf("%d", &b);
+scanf("%f", &b);
 
 printf("Digite a nota da terceira prova:\n");
-scanf("%d", &c);
+scanf("%f", &c);
 
 media= (1*a+1*b+2*c)/(1+1+2);
 
